@@ -17,7 +17,7 @@ class App extends Component{
     }
 
     vai(){
-        if(this.timer != null){
+        if(this.timer !== null){
             //Aqui vai parar o timer
             clearInterval(this.timer);
             this.timer = null;
@@ -32,7 +32,7 @@ class App extends Component{
     }
 
     limpar(){
-        if(this.timer != null){
+        if(this.timer !== null){
             //Aqui vai parar o timer
             clearInterval(this.timer);
             this.timer = null;
